@@ -11,6 +11,166 @@ html {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #413a3a;
+  background: linear-gradient(135deg white, #fff5f5);
+}
+
+/* Header */
+header#mobile {
+  width: 100%;
+}
+
+header#desktop {
+  display: none;
+}
+
+#logo {
+  padding: 2rem;
+  width: 50%;
+}
+
+/* Hero */
+#hero-img-desktop {
+  display: none;
+}
+
+/* Body */
+#body-text h1 {
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  margin: 2.5rem auto 2rem auto;
+}
+
+#body-text h1 span {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+#body-text p {
+  color: #ce9797;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5rem;
+  font-weight: 600;
+}
+
+/* Form */
+#email-form {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+#email-form input {
+  margin: 2rem auto;
+  width: 95%;
+  border: 1px solid #ce9797;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+
+#email-form input::-webkit-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input:-ms-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input::-ms-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input::placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form button[type=submit] {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border-radius: 30px;
+  padding: 13.5px 25px;
+  border: 0;
+  margin-left: -62px;
+  margin-top: 2rem;
+  position: absolute;
+  z-index: 2;
+}
+
+@media screen and (min-width: 376px) {
+  #logo {
+    width: 25%;
+  }
+  #hero-img-mobile {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #hero-img-mobile {
+    display: none;
+  }
+  #hero-img-desktop {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("images/bg-pattern-desktop.svg");
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header#mobile {
+    display: none;
+  }
+  header#desktop {
+    display: block;
+    width: 50%;
+    margin-top: -5rem;
+  }
+  #logo {
+    width: 65%;
+    margin-left: 1rem;
+  }
+  #hero-img-desktop {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 50%;
+  }
+  #hero-img-desktop img {
+    height: 100vh;
+  }
+  #flex-desktop {
+    margin-top: 6rem;
+    margin-left: 2rem;
+  }
+  #flex-desktop #body-text h1, #flex-desktop #body-text p {
+    text-align: left;
+  }
+  #flex-desktop #body-text p {
+    margin-left: 2rem;
+  }
 }
 
 .attribution {

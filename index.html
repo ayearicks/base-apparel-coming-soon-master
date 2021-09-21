@@ -13,32 +13,39 @@
 </head>
 <body>
 
-  <header>
-    <img src="images/logo.svg" alt="Base Apparel Logo">
+  <header id="mobile">
+    <img src="images/logo.svg" alt="Base Apparel Logo" id="logo">
   </header>
+  
 
   <main>
     <section id="hero-img-mobile">
       <img src="images/hero-mobile.jpg" alt="woman in front of plant">
     </section>
+
     <section id="hero-img-desktop">
       <img src="images/hero-desktop.jpg" alt="woman in front of plant">
     </section>
 
-    <section>
-      <div><h1><span>We're</span> Coming Soon</h1></div>
-      <div><p>Hello fellow shoppers! We're currently building our new fashion store. 
-        Add your email below to stay up-to-date with announcements and our launch deals.
-      </p></div>
-    </section>
+    <div id="flex-desktop">
+      <header id="desktop">
+        <img src="images/logo.svg" alt="Base Apparel Logo" id="logo">
+      </header>
+      <section id="body-text">
+        <div><h1><span>We're</span> Coming Soon</h1></div>
+        <div><p>Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p></div>
+      </section>
 
-    <section id="email-form">
-      <form action="" method="POST">
-        <label for="email"></label>
-        <input type="email" name="email" placeholder="Email Address" required>
-        <button type="submit"><img src="images/icon-arrow.svg"></button>
-      </form>
-    </section>
+      <section id="email-form">
+        <form action="" method="POST">
+          <label for="email"></label>
+          <input type="email" name="email" placeholder="Email Address" required>
+          <button type="submit"><img src="images/icon-arrow.svg"></button>
+        </form>
+      </section>
+    </div>
   </main>
   
   <footer>
