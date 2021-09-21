@@ -149,8 +149,8 @@ header#desktop {
     margin-top: -5rem;
   }
   #logo {
-    width: 75%;
-    margin-left: 5rem;
+    width: 65%;
+    margin-left: 1rem;
   }
   #hero-img-desktop {
     -webkit-box-ordinal-group: 3;
@@ -163,6 +163,13 @@ header#desktop {
   }
   #flex-desktop {
     margin-top: 6rem;
+    margin-left: 2rem;
+  }
+  #flex-desktop #body-text h1, #flex-desktop #body-text p {
+    text-align: left;
+  }
+  #flex-desktop #body-text p {
+    margin-left: 2rem;
   }
 }
 

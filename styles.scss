@@ -144,8 +144,8 @@ header#desktop {
     }
     
     #logo {
-        width: 75%;
-        margin-left: 5rem;
+        width: 65%;
+        margin-left: 1rem;
     }
 
     #hero-img-desktop {
@@ -159,8 +159,20 @@ header#desktop {
 
     #flex-desktop {
         margin-top: 6rem;
-        
+        margin-left: 2rem;
+
+        #body-text {
+            h1, p {
+                text-align: left;
+            }
+
+            p {
+                margin-left: 2rem;
+            }
+        }
     }
+    
+
 }
 
 
