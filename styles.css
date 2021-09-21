@@ -11,8 +11,11 @@ html {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
+  color: #413a3a;
+  background: linear-gradient(135deg white, #fff5f5);
 }
 
 /* Header */
@@ -31,7 +34,76 @@ header {
 }
 
 /* Body */
+#body-text h1 {
+  letter-spacing: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  margin: 2.5rem auto 2rem auto;
+}
+
+#body-text h1 span {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+#body-text p {
+  color: #ce9797;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5rem;
+  font-weight: 600;
+}
+
 /* Form */
+#email-form {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+#email-form input {
+  margin: 2rem auto;
+  width: 95%;
+  border: 1px solid #ce9797;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+
+#email-form input::-webkit-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input:-ms-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input::-ms-input-placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form input::placeholder {
+  color: #ce9797;
+  opacity: .5;
+}
+
+#email-form button[type=submit] {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border-radius: 30px;
+  padding: 13.5px 25px;
+  border: 0;
+  margin-left: -62px;
+  margin-top: 2rem;
+  position: absolute;
+  z-index: 2;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
