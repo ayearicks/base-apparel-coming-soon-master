@@ -11,8 +11,34 @@ html {
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+
+/* Header */
+header {
+    width: 100%;
+}
+
+#logo {
+    padding: 2rem;
+    width: 50%;
+}
+
+
+/* Hero */
+
+#hero-img-desktop {
+    display: none; //Don't show on mobile
+}
+
+
+/* Body */
+
+
+
+/* Form */
 
 
 
